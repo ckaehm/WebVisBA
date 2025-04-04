@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    // sourceMap -> display code position original ts code: https://www.typescriptlang.org/tsconfig#sourceMap
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    // es2022 needed cause dynamic import is used
+    "module": "es2022",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+  },
+  // config include see: https://www.typescriptlang.org/tsconfig#include
+  "include": [
+    "src/**/*"
+  ]
+}
