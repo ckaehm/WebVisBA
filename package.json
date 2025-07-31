@@ -12,6 +12,7 @@
   "author": "Roland Roßkopf",
   "license": "ISC",
   "devDependencies": {
+    "@types/ffmpeg": "^1.0.7",
     "@types/three": "^0.152.0",
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
@@ -27,7 +28,13 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "jszip": "^3.10.1",
+    "mp4box": "^1.4.2",
+    "mux.js": "^6.3.0",
     "sass": "^1.77.6",
+    "tesseract.js": "^6.0.1",
     "three": "^0.152.2"
   }
 }

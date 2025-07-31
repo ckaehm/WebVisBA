@@ -65,4 +65,9 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
+  stats: {
+    warningsFilter: [
+        /Critical dependency: the request of a dependency is an expression/
+    ]
+  },
 };
