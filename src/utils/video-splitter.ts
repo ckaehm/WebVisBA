@@ -15,7 +15,6 @@ export class VideoSplitter {
             const duration = end !== null ? (end - start) : (totalDuration - start);
 
             const outputName = `${i}_${splits[i].world}.mp4`;
-            console.log(outputName);
 
             const args = ["-i", "input.mp4", "-ss", `${start}`];
             if(duration){
